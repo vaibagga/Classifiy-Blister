@@ -23,7 +23,7 @@ from tensorflow.python.util import compat
 
 FLAGS = None
 
-
+# :)
 MAX_NUM_IMAGES_PER_CLASS = 2 ** 27 - 1 
 
 def create_image_lists(image_dir, testing_percentage, validation_percentage):
