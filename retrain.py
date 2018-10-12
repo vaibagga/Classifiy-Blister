@@ -33,7 +33,7 @@ def create_image_lists(image_dir, testing_percentage, validation_percentage):
     return None
   result = {}
   sub_dirs = [x[0] for x in gfile.Walk(image_dir)]
-
+no training no progress
   is_root_dir = True
   for sub_dir in sub_dirs:
     if is_root_dir:
